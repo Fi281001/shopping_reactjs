@@ -1,0 +1,30 @@
+/* Navbar */
+.navbar-nav a {
+    font-size: 16px;
+}
+
+/* Category */
+.category {
+    border-radius: 2px ;
+    background-color: var(--white-color);
+}
+
+.category__heading {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
+.category-item__link {
+    display: block;
+    padding: 6px 0;
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.category-item__link:hover {
+    background-color: navajowhite;
+}
